@@ -1,0 +1,13 @@
+{% extends 'pizza/base.html' %}
+{% block 'body' %}
+ <dir class="container">
+<dir class="text-center">
+	{% load static %}
+	<img src="{% static 'Aglio-Olio-banner2-r.jpg'%}"class="img-fluid"alt="online ordering">
+
+</dir>
+
+
+<a href="{% url 'order'%}">Order Pizza</a>
+</dir>
+{% endblock %}
